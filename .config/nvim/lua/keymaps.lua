@@ -24,6 +24,7 @@ keymap("n", "<leader>pv", "<cmd>Ex<CR>")
 keymap("n", "<leader>gs",vim.cmd.Git)
 keymap("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move down" })
 keymap("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move up" })
+keymap("n", "<leader>gs", vim.cmd.Git)
 
 -- Resize pane
 keymap("n", "<A-=>", "<C-w>+", { desc = "Make Window Taller" }) -- Alt =
